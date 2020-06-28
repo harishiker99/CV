@@ -204,7 +204,9 @@ body {
 }
 
 .about{
-  margin: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
   line-height: 26px;
 }
 
@@ -227,7 +229,7 @@ body {
 }
 .right-inner .li-wrap .date{
   width: 125px;
-  color: #9A2540
+  color: #9A2540;
 }
 
 .right-inner .li-wrap .info{
@@ -257,7 +259,7 @@ body {
   content: "";
   position: absolute;
   top: 3px;
-  left: 0;
+  left: 2px;
   width: 10px;
   height: 10px;
   background: #9A2540;
@@ -268,8 +270,9 @@ body {
   content: "";
   position: absolute;
   top: 3px;
-  left: 0;
+  left: 2px;
   width: 2px;
   height: 90%;
   background: #9A2540;
+  
 }
