@@ -217,10 +217,8 @@ body {
 
 .right-inner .exp{
   margin-top: 30px;
-  justify-content: center;
 }
 .right-inner .education{
-  justify-content: center;
 }
 
 .right-inner .li-wrap {
@@ -228,8 +226,8 @@ body {
   margin-bottom: 15px;
 }
 .right-inner .li-wrap .date{
-  width: 125px;
   color: #9A2540;
+  margin-bottom: 10px;
 }
 
 .right-inner .li-wrap .info{
@@ -274,5 +272,9 @@ body {
   width: 2px;
   height: 90%;
   background: #9A2540;
-  
+}
+
+.group{
+  width: 70px;
+  height: 51px;
 }
