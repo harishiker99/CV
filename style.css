@@ -189,7 +189,7 @@ body {
 
 .left .darkmode{
   justify-content: center;
-  margin: 70px;
+  margin: 60px;
 }
 
 body.dark {
@@ -250,8 +250,8 @@ body.dark .right-inner .li-wrap .info-title{
 	justify-content: space-between;
 	padding: 5px;
 	position: relative;
-	height: 26px;
-	width: 50px;
+	height: 40px;
+	width: 80px;
 	transform: scale(1.5);
 }
 
@@ -261,23 +261,25 @@ body.dark .right-inner .li-wrap .info-title{
 	position: absolute;
 	top: 2px;
 	left: 2px;
-	height: 22px;
-	width: 22px;
+	height: 35px;
+	width: 35px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .label .ball {
-	transform: translateX(24px);
+	transform: translateX(40px);
 }
 
 
 .fa-moon {
-	color: #f1c40f;
+  color: #f1c40f;
+  font-size: 25px;
 }
 
 .fa-sun {
-	color: #f39c12;
+  color: #f39c12;
+  font-size: 25px;
 }
 
 /* --RIGHT SIDE OF THE PAGE -- */
